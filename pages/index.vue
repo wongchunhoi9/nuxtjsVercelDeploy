@@ -8,6 +8,9 @@
       <h2 class="subtitle">
         My astonishing Nuxt.js project
       </h2>
+      <model-viewer src="https://poly.googleusercontent.com/downloads/c/fp/1585475837775703/7seQO9AGzkB/2IzMN2H3kfF/model.gltf" ios-src="https://poly.googleusercontent.com/downloads/c/fp/1585475837775703/7seQO9AGzkB/91Vm5NgSfKv/model.usdz" alt="Orange B by Wong Chun Hoi" background-color="##ffffff" camera-controls auto-rotate ar ar-scale="auto" quick-look-browsers="chrome safari" unstable-webxr> </model-viewer>
+      <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>     
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -26,6 +29,8 @@
       </div>
     </div>
   </div>
+
+  
 </template>
 
 <script>
