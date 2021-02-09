@@ -3,15 +3,39 @@
         
   
 <div>
-  <div class="modelcontainter">
-           <model-viewer src="/3dmodels/honeycomb.glb" minimumRenderScale="0.1" alt="Orange B by Wong Chun Hoi"   shadow-intensity="1" camera-controls auto-rotate ar ar-scale="auto" quick-look-browsers="chrome safari" > </model-viewer>
-                    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
-                      <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>     
-        </div>
+  <b-container>
+    <b-row>
+      <b-col>
+          <NuxtLink to="/honeycomb">
+            <div>
+              <h2>蜜蜂巢</h2>
+              <b-img src="~assets/images/honeycomb.jpg"></b-img>
+            </div> 
+          </NuxtLink>
+      </b-col>
+      <b-col>
+        <NuxtLink to="/farmerstick">
+            <h2> 花梨木 禾早草擔挑</h2>
+            <b-img src="~assets/images/farmerstick.jpg"></b-img>
+          </NuxtLink>
+      </b-col>
+      <b-col>
+        <NuxtLink to="/turnip">
+            <h2> 蘿蔔</h2>
+            <b-img src="~assets/images/turnip.jpg"></b-img>
+          </NuxtLink>
+      </b-col>
+       <b-col>
+        <NuxtLink to="/chickenlegbread">
+            <h2> 雞脾包</h2>
+            <b-img src="~assets/images/chickenlegbread.jpg"></b-img>
+          </NuxtLink>
+      </b-col>
+    </b-row>
+  </b-container>
+  
 
-        <div id="instructions">
-          <h1>Honey comb 坪輋</h1>
-        </div>
+  
 </div>
         
         
