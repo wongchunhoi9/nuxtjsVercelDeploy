@@ -3,7 +3,7 @@
         
   
 <div>
-  <b-container>
+  <b-container class="wholecontainer">
     <b-row>
       <b-col>
           <NuxtLink to="/honeycomb">
@@ -31,6 +31,18 @@
             <b-img src="~assets/images/chickenlegbread.jpg"></b-img>
           </NuxtLink>
       </b-col>
+       <b-col>
+        <NuxtLink to="/tomato">
+            <h2> Tomato</h2>
+            <!-- <b-img src="~assets/images/chickenlegbread.jpg"></b-img> -->
+          </NuxtLink>
+      </b-col>
+             <b-col>
+        <NuxtLink to="/tigerteethpepper">
+            <h2> Tiger teeth pepper</h2>
+            <!-- <b-img src="~assets/images/chickenlegbread.jpg"></b-img> -->
+          </NuxtLink>
+      </b-col>
     </b-row>
   </b-container>
   
@@ -43,8 +55,39 @@
 
 </template>
 
+<script>
+  export default {
+    data() {
+      return {
+        title: 'Home page'
+      }
+    },
+    head() {
+      return {
+        title: this.title,
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Home page description'
+          }
+        ]
+      }
+    }
+  }
+</script>
+
+
 <style  scoped>
 
+.wholecontainer { 
+background-color: black;
+
+}
+
+h2 {
+  color: aliceblue;
+}
 
 model-viewer { 
     width: 100%;

@@ -6,15 +6,17 @@
   <div class="modelcontainter">
            <!-- <model-viewer src="/3dmodels/honeycomb.glb" minimumRenderScale="0.1" alt="Orange B by Wong Chun Hoi"   environment-image="neutral"  camera-controls auto-rotate ar ar-scale="auto" quick-look-browsers="chrome safari" > </model-viewer> -->
            <!-- honey comb by Wong Chun Hoi -->
-          <model-viewer src="https://poly.googleusercontent.com/downloads/c/fp/1612890832356051/7qY6Szu2llj/6QHs0XGXAfD/model.gltf" alt="honey comb by Wong Chun Hoi" background-color="##fafafa" camera-controls auto-rotate camera-orbit="90deg 0deg 3m" environment-image="neutral" > </model-viewer>
+ 
+             <!-- Ma shi po tomato by Wong Chun Hoi -->
+     <!-- Ma Shi Po tiger teeth pepper by Wong Chun Hoi -->
+<model-viewer src="https://poly.googleusercontent.com/downloads/c/fp/1614170083816586/cqgPcFSwxuh/anUzZhMbo7i/tigerteethpepper.gltf" alt="Ma Shi Po tiger teeth pepper by Wong Chun Hoi" background-color="##eeeeee" camera-controls auto-rotate > </model-viewer>
                     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
                       <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>    
-                      <!-- Ma shi po tomato by Wong Chun Hoi -->
-
+                   
         </div>
 
         <div id="instructions">
-          <!-- <h1>蜜蜂巢</h1> -->
+          <!-- <h1>Tomato</h1> -->
         </div>
 </div>
         
@@ -29,7 +31,7 @@
 model-viewer { 
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 
 }
 
