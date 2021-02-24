@@ -43,4 +43,15 @@ export default {
      */
     extend(config, ctx) {},
   },
+  buildModules: [
+    '@nuxtjs/pwa',
+  ],
+  pwa: {
+    manifest: {
+      name: 'My Awesome App',
+      lang: 'fa',
+      useWebmanifestExtension: false,
+      display:'browser'
+    }
+  }
 };

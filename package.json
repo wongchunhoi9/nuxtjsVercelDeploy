@@ -16,6 +16,7 @@
     "vue": "^2.6.12"
   },
   "devDependencies": {
+    "@nuxtjs/pwa": "^3.3.5",
     "nodemon": "^1.18.9"
   }
 }
