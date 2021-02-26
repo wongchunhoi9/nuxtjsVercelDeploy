@@ -6,7 +6,8 @@
   <div class="modelcontainter">
            <!-- <model-viewer src="/3dmodels/honeycomb.glb" minimumRenderScale="0.1" alt="Orange B by Wong Chun Hoi"   environment-image="neutral"  camera-controls auto-rotate ar ar-scale="auto" quick-look-browsers="chrome safari" > </model-viewer> -->
            <!-- honey comb by Wong Chun Hoi -->
-          <model-viewer src="https://poly.googleusercontent.com/downloads/c/fp/1612890832356051/7qY6Szu2llj/6QHs0XGXAfD/model.gltf" alt="honey comb by Wong Chun Hoi" background-color="##fafafa" camera-controls auto-rotate camera-orbit="90deg 0deg 3m" environment-image="neutral" > </model-viewer>
+         <!-- honey comb 2 by Wong Chun Hoi -->
+<model-viewer src="https://poly.googleusercontent.com/downloads/c/fp/1614353537855353/3hPq0oSRHav/85pGLwT6o5W/honeybee.gltf" alt="honey comb 2 by Wong Chun Hoi" background-color="##eeeeee" camera-controls auto-rotate > </model-viewer>
                     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
                       <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>    
                       <!-- Ma shi po tomato by Wong Chun Hoi -->
