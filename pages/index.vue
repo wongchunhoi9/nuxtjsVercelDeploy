@@ -6,7 +6,7 @@
   <b-container class="wholecontainer">
     <b-row>
       <b-col>
-          <NuxtLink to="/honeycomb5">
+          <NuxtLink to="/honeycomb">
             <div>
               <h2>蜜蜂巢</h2>
               <b-img src="~assets/images/honeycomb.jpg"></b-img>
