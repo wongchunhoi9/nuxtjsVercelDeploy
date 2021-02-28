@@ -6,7 +6,7 @@
   <div class="modelcontainter">
  
              <!-- Ma shi po tomato by Wong Chun Hoi -->
-      <model-viewer id="toggle-model" src="https://poly.googleusercontent.com/downloads/c/fp/1614159411541035/eM4ltBXRD6a/eJbTEPk3etv/mashipotomatoL.gltf" alt="Ma shi po tomato by Wong Chun Hoi" background-color="##AA0000" camera-controls auto-rotate environment-image="neutral" >
+      <model-viewer id="toggle-model" src="/3dmodels/honeycomb.glb" alt="Ma shi po tomato by Wong Chun Hoi" background-color="##AA0000" camera-controls auto-rotate environment-image="neutral" >
         <!-- <div class="buttonContatiner">
            <b-button class="nextbutton">next</b-button>
            next
@@ -27,13 +27,12 @@
 </template>
 
 <script>
-
-                        
-     const models = ['https://poly.googleusercontent.com/downloads/c/fp/1614159411541035/eM4ltBXRD6a/eJbTEPk3etv/mashipotomatoL.gltf', 'https://poly.googleusercontent.com/downloads/c/fp/1614170083816586/cqgPcFSwxuh/anUzZhMbo7i/tigerteethpepper.gltf'];
-      // const toggleModel = document.querySelector('#toggle-model');
-      document.querySelector('#toggle-model').setAttribute('src', `${models[j++ % 2]}`)
+      const models = ['farmerstick.glb', 'honeycomb.glb'];
+      const toggleModel = document.querySelector('#toggle-model');
+      // document.querySelector('#toggle-model').setAttribute('src', `${models[j++ % 2]}`)
       let j = 0;
-      setInterval(() => toggleModel.setAttribute('src', `${models[j++ % 2]}`), 2000);
+      setInterval(() => toggleModel.setAttribute('src', `/3dmodels/${models[j++ % 2]}`), 2000);
+                      
  
       
   </script>
